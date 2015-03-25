@@ -1,8 +1,8 @@
 ---
 title       : "Hypothesis Testing Example"
 subtitle    : "Ch 6: Simple Linear Regression Inference"
-author      : Stat 217
-today       : " 2015-03-23 "
+author      : "Stat 217"
+today       : "Wednesday, March 25, 2015"
 framework   : bootstrap3
 highlighter : highlight.js 
 hitheme     : github      
@@ -83,7 +83,7 @@ Using the diagnostic plots below and the previous information, check off all the
 ```r
 # fitting the model
 temp_slr <- lm(meanmax ~ Year, data = bozemantemps)
-par(mfrow = c(1,4))  ## 1 row and 4 columns of plots
+par(mfrow = c(2,2))  ## 2 rows and 2 columns of plots
 plot(temp_slr)
 ```
 

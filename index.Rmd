@@ -1,8 +1,8 @@
 ---
 title       : "Hypothesis Testing Example"
 subtitle    : "Ch 6: Simple Linear Regression Inference"
-author      : Stat 217
-today       : " `r Sys.Date()` "
+author      : "Stat 217"
+today       : "Wednesday, March 25, 2015"
 framework   : bootstrap3
 highlighter : highlight.js 
 hitheme     : github      
@@ -92,10 +92,10 @@ For these data, the independence assumption is actually not met.  Aside from lur
 
 Using the diagnostic plots below and the previous information, check off all the assumptions that appear to be met.
 
-```{r diagnostics, fig.width = 16, fig.height=4}
+```{r diagnostics, fig.width = 8, fig.height=8}
 # fitting the model
 temp_slr <- lm(meanmax ~ Year, data = bozemantemps)
-par(mfrow = c(1,4))  ## 1 row and 4 columns of plots
+par(mfrow = c(2,2))  ## 2 rows and 2 columns of plots
 plot(temp_slr)
 par(mfrow = c(1,1))  ## back to 1 row and 1 column
 ```

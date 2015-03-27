@@ -206,12 +206,15 @@ What is your conclusion in the context of the problem?  (Just put a bunch of let
 *** .explanation
 There is strong evidence that there is a linear relationship between Year and Average High Temperature in Bozeman, MT.
 
----
+--- &submitcompare1
 ## Confidence intervals
 
-We haven't talked about confidence intervals yet, but I think you can figure it out.
+Recall that the formula for a confidence interval is $Est \pm t_{df}^* \times SE$ where $t_{df}^*$ was our critical value.  Use a critical value of 1.98 to make a 95% confidence interval for the slope coefficient.
 
-Recall that the formula for a confidence interval is $Est \pm t_{df}^* \times SE$ where $t_{df}^*$ was our critical value.  Use a critical value of 1.98 to make a 95% confidence interval.
+Interpret the confidence interval in the context of the problem.
+
+*** .explanation
+When increasing the year by one, we are 95% confident that the true change in the mean of average high temperatures in Bozeman increases by between 0.046 and 0.067 degrees Fahrenheit.
 
 ---
 ## Other practice problems
